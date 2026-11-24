@@ -9,6 +9,9 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const JOKE =
   "I told the scissors to cut it out. They said, 'We're just trying to make the cut.'";
+// The joke above is 82 characters on one line: two puns share the word
+// "cut" — "cut it out" (a father's phrase, literally what scissors do)
+// and "make the cut" (pass the test, and cut). Punchline lands last.
 
 const OUT_PATH = "/output/entry.txt";
 
